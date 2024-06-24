@@ -7,6 +7,8 @@ namespace RBJChallenge.Data
     {
         public AppDBContext(DbContextOptions<AppDBContext> options) : base(options) { }
 
-        public DbSet<Employee> Employees{ get; set; }
+        public DbSet<Employee> Employees { get; set; }
+
+        public DbSet<RBJChallenge.Model.Class.Task> Tasks { get; set; }
     }
 }
