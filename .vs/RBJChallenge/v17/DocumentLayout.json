@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Puneet\\OneDrive\\Documents\\Visual Studio Projects\\RBJChallenge\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{694376EE-D6A4-4C0C-9AC9-5D0A5B42B416}|RBJChallenge.csproj|c:\\users\\puneet\\onedrive\\documents\\visual studio projects\\rbjchallenge\\controllers\\emplyeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694376EE-D6A4-4C0C-9AC9-5D0A5B42B416}|RBJChallenge.csproj|solutionrelative:controllers\\emplyeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694376EE-D6A4-4C0C-9AC9-5D0A5B42B416}|RBJChallenge.csproj|c:\\users\\puneet\\onedrive\\documents\\visual studio projects\\rbjchallenge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694376EE-D6A4-4C0C-9AC9-5D0A5B42B416}|RBJChallenge.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694376EE-D6A4-4C0C-9AC9-5D0A5B42B416}|RBJChallenge.csproj|c:\\users\\puneet\\onedrive\\documents\\visual studio projects\\rbjchallenge\\model\\addemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694376EE-D6A4-4C0C-9AC9-5D0A5B42B416}|RBJChallenge.csproj|solutionrelative:model\\addemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694376EE-D6A4-4C0C-9AC9-5D0A5B42B416}|RBJChallenge.csproj|c:\\users\\puneet\\onedrive\\documents\\visual studio projects\\rbjchallenge\\model\\class\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694376EE-D6A4-4C0C-9AC9-5D0A5B42B416}|RBJChallenge.csproj|solutionrelative:model\\class\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694376EE-D6A4-4C0C-9AC9-5D0A5B42B416}|RBJChallenge.csproj|c:\\users\\puneet\\onedrive\\documents\\visual studio projects\\rbjchallenge\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694376EE-D6A4-4C0C-9AC9-5D0A5B42B416}|RBJChallenge.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{694376EE-D6A4-4C0C-9AC9-5D0A5B42B416}|RBJChallenge.csproj|c:\\users\\puneet\\onedrive\\documents\\visual studio projects\\rbjchallenge\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{694376EE-D6A4-4C0C-9AC9-5D0A5B42B416}|RBJChallenge.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,24 +38,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\Puneet\\OneDrive\\Documents\\Visual Studio Projects\\RBJChallenge\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\Puneet\\OneDrive\\Documents\\Visual Studio Projects\\RBJChallenge\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "AddEmployeeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Puneet\\OneDrive\\Documents\\Visual Studio Projects\\RBJChallenge\\Model\\AddEmployeeDTO.cs",
+              "RelativeDocumentMoniker": "Model\\AddEmployeeDTO.cs",
+              "ToolTip": "C:\\Users\\Puneet\\OneDrive\\Documents\\Visual Studio Projects\\RBJChallenge\\Model\\AddEmployeeDTO.cs",
+              "RelativeToolTip": "Model\\AddEmployeeDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T23:23:53.697Z",
+              "WhenOpened": "2024-06-23T03:24:40.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmplyeesController.cs",
+              "DocumentMoniker": "C:\\Users\\Puneet\\OneDrive\\Documents\\Visual Studio Projects\\RBJChallenge\\Controllers\\EmplyeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmplyeesController.cs",
+              "ToolTip": "C:\\Users\\Puneet\\OneDrive\\Documents\\Visual Studio Projects\\RBJChallenge\\Controllers\\EmplyeesController.cs",
+              "RelativeToolTip": "Controllers\\EmplyeesController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwCUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T03:09:14.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Puneet\\OneDrive\\Documents\\Visual Studio Projects\\RBJChallenge\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Puneet\\OneDrive\\Documents\\Visual Studio Projects\\RBJChallenge\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T03:02:18.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Puneet\\OneDrive\\Documents\\Visual Studio Projects\\RBJChallenge\\Data\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\Puneet\\OneDrive\\Documents\\Visual Studio Projects\\RBJChallenge\\Data\\AppDBContext.cs",
+              "RelativeToolTip": "Data\\AppDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T00:51:27.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Puneet\\OneDrive\\Documents\\Visual Studio Projects\\RBJChallenge\\Model\\Class\\Employee.cs",
+              "RelativeDocumentMoniker": "Model\\Class\\Employee.cs",
+              "ToolTip": "C:\\Users\\Puneet\\OneDrive\\Documents\\Visual Studio Projects\\RBJChallenge\\Model\\Class\\Employee.cs",
+              "RelativeToolTip": "Model\\Class\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T00:38:14.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Puneet\\OneDrive\\Documents\\Visual Studio Projects\\RBJChallenge\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Puneet\\OneDrive\\Documents\\Visual Studio Projects\\RBJChallenge\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T23:23:53.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Puneet\\OneDrive\\Documents\\Visual Studio Projects\\RBJChallenge\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -43,8 +123,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-22T23:22:57.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T23:22:57.053Z"
             }
           ]
         }
