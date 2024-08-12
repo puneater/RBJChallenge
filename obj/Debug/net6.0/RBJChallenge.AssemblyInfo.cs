@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RBJChallenge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f08d69c0afe28dc0b303e9aff440c36234c38e2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0115992b7df5cf83cdb75fef01dee24fa9455e74")]
 [assembly: System.Reflection.AssemblyProductAttribute("RBJChallenge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RBJChallenge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

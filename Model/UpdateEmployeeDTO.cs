@@ -1,6 +1,6 @@
 ﻿namespace RBJChallenge.Model
 {
-    public class AddEmployeeDTO
+    public class UpdateEmployeeDTO
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }

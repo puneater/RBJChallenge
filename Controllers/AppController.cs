@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using RBJChallenge.Data;
 using RBJChallenge.Model;
 using RBJChallenge.Model.Class;
@@ -48,6 +49,24 @@ namespace RBJChallenge.Controllers
             }
             return Ok();
         }
+
+        [HttpPut]
+        [Route("{EmployeeId:guid}")]
+        public IActionResult UpdateEmployee(Guid EmployeeId, UpdateEmployeeDTO request)
+        {
+            var employee = dBContext.Employees.Find(EmployeeId);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+
+            employee.FirstName = request.FirstName;
+            employee.LastName = request.LastName;
+            employee.HiredDate = request.HiredDate;
+
+            dBContext.SaveChanges();
+            return Ok(employee);
+        }
     }
 
     [Route("api/[controller]")]
@@ -74,7 +93,8 @@ namespace RBJChallenge.Controllers
                 TaskId = Guid.NewGuid(),
                 TaskName = request.TaskName,
                 StartDate = request.StartDate,
-                DueDate = request.DueDate
+                DueDate = request.DueDate,
+                Employee = request.Employee
             };
 
             dBContext.Tasks.Add(domainModelTask);
@@ -93,6 +113,25 @@ namespace RBJChallenge.Controllers
                 dBContext.SaveChanges();
             }
             return Ok();
+        }
+
+        [HttpPut]
+        [Route("{TaskId:guid}")]
+        public IActionResult UpdateTask(Guid TaskId, UpdateTaskDTO request)
+        {
+            var task = dBContext.Tasks.Find(TaskId);
+            if (task == null)
+            {
+                return NotFound();
+            }
+
+            task.TaskName = request.TaskName;
+            task.StartDate = request.StartDate;
+            task.DueDate = request.DueDate;
+            task.Employee = request.Employee;
+
+            dBContext.SaveChanges();
+            return Ok(task);
         }
     }
 }

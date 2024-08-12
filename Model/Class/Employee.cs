@@ -6,6 +6,6 @@
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime? HiredDate { get; set; }
-
+        public List<Task> Tasks { get; set; } = new List<Task>();
     }
 }

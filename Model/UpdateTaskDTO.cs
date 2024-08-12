@@ -1,12 +1,10 @@
-﻿namespace RBJChallenge.Model.Class
+﻿namespace RBJChallenge.Model
 {
-    public class Task
+    public class UpdateTaskDTO
     {
-        public Guid TaskId { get; set; }
         public string TaskName { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime DueDate { get; set; }
         public string Employee { get; set; }
-
     }
 }
